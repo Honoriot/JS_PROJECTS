@@ -1,0 +1,101 @@
+body{
+    background-color: gray;
+    color: aqua;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+}
+
+
+.Result{
+    font-size: 5rem;
+}
+
+.card-box{
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dice{
+    width: 30vb;
+    position: relative;
+    height: 30vh;
+    margin-top: 30px;
+    background-color: rgb(152, 2, 2);
+    border-radius: 10%;
+}
+
+.dot{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+li{
+    list-style: none;
+    border-right: 2px solid ;
+    border-radius: 20%;
+    padding-right: 10px;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.foot{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.dot-center{
+    top: 40%;
+    left: 40%;
+}
+
+.dot-center-left{
+    top: 40%;
+    left: 10%;
+}
+
+.dot-center-right{
+    top: 40%;
+    left: 70%;
+}
+
+.dot-top-left{
+    top: 10%;
+    left: 10%;
+}
+
+.dot-top-center{
+    top: 10%;
+    left: 40%;
+}
+
+.dot-top-right{
+    top: 10%;
+    left: 70%;
+}
+
+.dot-bottom-left{
+    top: 70%;
+    left: 10%;
+}
+
+.dot-bottom-center{
+    top: 70%;
+    left: 40%;
+}
+.dot-bottom-right{
+    top: 70%;
+    left: 70%;
+}

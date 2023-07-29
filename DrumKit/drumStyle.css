@@ -1,0 +1,54 @@
+body{
+    font-family: "Audiowide", sans-serif;
+    background-color: rgb(29, 9, 77);
+}
+
+.title-head{
+    color: rgb(212, 244, 249);
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    letter-spacing: 2vb;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 10vb;
+    height: 10vh;
+    background-color: rgb(208, 230, 250);
+    border: 10px solid rgb(41, 12, 108);
+    border-radius: 5px;
+    font-size: 3rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    transition: all 0.2s;
+}
+
+.box-style{
+    width: 11vb;
+    height: 11vh;
+    font-size: 5rem;
+    border: 5px solid rgb(185, 200, 85);
+    box-shadow: 5px 5px 20px rgb(185, 200, 85), -5px -5px 20px rgb(185, 200, 85);
+}
+
+.bottom{
+    color: aqua;
+    text-align: center;
+    letter-spacing: 2px;
+
+    transition: all 0.5s;
+}
+
+.bottom:hover{
+    letter-spacing: 5px;
+}
