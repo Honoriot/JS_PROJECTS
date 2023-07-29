@@ -41,12 +41,12 @@ function modifyList(){
 function buttonClick(){
     console.log("I am clicked");
 
-    console.log(inputHandler.value);
+    //console.log(inputHandler.value);
+    if(inputHandler.value !== ''){
     data.push(inputHandler.value);
-    data.sort();
     inputHandler.value = '';
-
     modifyList();
+    }
 }
 
 inputHandler.addEventListener("keypress", e=>{
