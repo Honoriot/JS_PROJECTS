@@ -30,7 +30,7 @@ function modifyList(){
     data.sort();
     data.forEach(e=>{
         str += `<div class="li-a">
-        <li data-index="${data.length}">${e}</li> <a href="#" dataindex="${data.length}">&#128686;</a>
+        <li data-index="${data.indexOf(e)}">${e}</li> <a href="#" dataindex="${data.indexOf(e)}">&#128686;</a>
     </div>`;
     });
     document.querySelector(".list-item").innerHTML = str;
