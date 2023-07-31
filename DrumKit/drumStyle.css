@@ -21,7 +21,7 @@ body{
 .box{
     width: 10vb;
     height: 10vh;
-    background-color: rgb(208, 230, 250);
+/*     background-color: rgb(208, 230, 250); */
     border: 10px solid rgb(41, 12, 108);
     border-radius: 5px;
     font-size: 3rem;
