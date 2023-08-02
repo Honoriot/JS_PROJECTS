@@ -30,7 +30,7 @@ function modifyList(){
     data.sort();
     data.forEach(e=>{
         str += `<div class="li-a">
-        <li data-index="${data.length}">${e}</li> <a href="#" dataindex="${data.length}">&#128686;</a>
+        <li data-index="${data.indexOf(e)}">${e}</li> <a href="#" dataindex="${data.indexOf(e)}">&#128686;</a>
     </div>`;
     });
     document.querySelector(".list-item").innerHTML = str;
@@ -41,12 +41,12 @@ function modifyList(){
 function buttonClick(){
     console.log("I am clicked");
 
-    console.log(inputHandler.value);
+    //console.log(inputHandler.value);
+    if(inputHandler.value !== ''){
     data.push(inputHandler.value);
-    data.sort();
     inputHandler.value = '';
-
     modifyList();
+    }
 }
 
 inputHandler.addEventListener("keypress", e=>{
